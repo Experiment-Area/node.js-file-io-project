@@ -1,0 +1,19 @@
+{
+  "name": "ransamware-node.js",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "start": "tsc && nodemon --enable-source-maps dist/decrypt.js",
+    "compile": "tsc --watch",
+    "build": "tsc",
+    "cleanBuild": "rm -rf dist && tsc"
+  },
+  "author": "Direct Entry Program <dep@ijse.lk> (https://ijse.lk)",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "latest",
+    "@types/node": "latest"
+  }
+}
